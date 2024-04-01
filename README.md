@@ -1,3 +1,2 @@
-#Start
-# Stuti 
-# Today's work
+# Objective
+The primary objective of our project is to identify thematic patterns through topic modelling techniques across different comedy set transcripts. Additionally, another focus point is to rate the sensitivity or the offensive content in the transcript through sentiment analysis techniques. Through our project, we aim to improve the structure of the existing disclaimer format presented during various stand-up comedy videos and shows and address potential concerns related to sensitive content in different segments of the show/video making it transparent for viewers resulting in a safe viewing experience. 
