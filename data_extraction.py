@@ -20,7 +20,7 @@ def extract_hyperlinks_from_excel(excel_path, header_name='URL'):
             urls.append(cell.hyperlink.target)
     return urls
 
-
+# Final dataframe with transcript links
 excel_path = "data/transcripts_urls.xlsx" 
 urls = extract_hyperlinks_from_excel(excel_path, header_name='URL')
 df_urls = pd.DataFrame(urls, columns=['URL'])
