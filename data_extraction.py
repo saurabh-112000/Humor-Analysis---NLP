@@ -2,6 +2,7 @@
 from openpyxl import load_workbook
 import pandas as pd
 
+# Function to extract transcript links
 def extract_hyperlinks_from_excel(excel_path, header_name='URL'):
     wb = load_workbook(filename=excel_path)
     sheet = wb.active
