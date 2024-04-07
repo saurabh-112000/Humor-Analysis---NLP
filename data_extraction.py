@@ -1,5 +1,6 @@
 from openpyxl import load_workbook
 import pandas as pd
+import os
 
 def extract_hyperlinks_from_excel(excel_path, header_name='URL'):
     wb = load_workbook(filename=excel_path)
@@ -21,7 +22,9 @@ def extract_hyperlinks_from_excel(excel_path, header_name='URL'):
     return urls
 
 
-excel_path = "data/transcript_urls.xlsx" 
+rel_path = 'data/transcripts_urls.xlsx'
+excel_path = os.path.join(os.getcwd(), rel_path)
+
 urls = extract_hyperlinks_from_excel(excel_path, header_name='URL')
 df_urls = pd.DataFrame(urls, columns=['URL'])
 print(df_urls)
