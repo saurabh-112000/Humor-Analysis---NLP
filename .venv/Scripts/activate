@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="c:\Users\stuti\Desktop\Northeastern University\Academics\Semesters\Sem-4\NLP\NLP_Project\New folder\Humor-Analysis---NLP\.venv"
+VIRTUAL_ENV="c:\Users\stuti\Desktop\Northeastern University\Academics\Semesters\Sem-4\NLP\New_NLP_Project\Humor-Analysis---NLP\.venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
